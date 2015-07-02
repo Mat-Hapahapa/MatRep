@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JavaJam Coffee House </title>
+    <link href="Style.css" rel="stylesheet" media="only screen and (min-width: 640px)">
+    <link href="StyleMobile.css" rel="stylesheet" media="only screen and (max-width: 640px)">
+    <link rel="icon" href="favicon.ico" type="shortcut icon">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <img src="Images/javalogo.gif" alt="Java logo"/>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="menu"> <a href="Index.html">Index</a></li>
+            <li class="menu"><a href="Menu.html">Menu</a></li>
+            <li class="menu"><a href="Music.html">Music</a></li>
+            <li class="menu"><a href="Jobs.html">Jobs</a></li>
+        </ul>
+    </nav>
+    <div id="content">
+        <p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk *</p>
+        <form method="post" action="http://webdevbasics.net/scripts/javajam.php ">
+            <table>
+                <tr>
+                    <th>*Name:</th>
+                    <td><input type="text" name="email" id="name" required></td>
+                </tr>
+                <tr>
+                    <th>*E-mail:</th>
+                    <td><input type="email" name="email" id="email" required></td>
+                </tr>
+                <tr>
+                    <th>*Experience:</th>
+                    <td><textarea name="Experience" id="xp" required rows="4" cols="40"></textarea>
+                </tr>
+            </table>
+            <br/>
+            <input type="submit" value="Apply Now">
+        </form>
+
+    </div>
+    <footer>
+        <p>
+            <i>
+                Copyright &copy; 2015 JavaJam Coffee House <br>
+                <a href="mailto:Troll@gmail.com">Mathias@Schmidt.com</a>
+            </i>
+        </p>
+    </footer>
+</div>
+    <script src="JavaJavaScript.js"></script>
+</body>
+</html>
