@@ -2,23 +2,52 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Psykolog Østergaard</title>
-    <link href="css/Style.css" rel="stylesheet"/>
+    <link href="css/Style.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
     <div id="sideWrapper">
+
         <div class="jumbotron">
             <h1>PsykologPraksis Østergaard</h1>
         </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Link</a></li>
-            </ul>
-            </div>
-                test
+        <div class="navbars">
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <!--Til mobilvisning - 'collapse'-->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <a class="navbar-brand" href="#">Menu</a>
+                        </button>
+                    </div>
+                    <!--Normal visning-->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <!--<ul class="nav navbar-nav ">-->
+                        <ul class="nav nav-pills nav-stacked">
+                                <li class="active"><a href="#">Forside <span class="sr-only">(current)</span></a></li>
+                                <!--<li class="active"><a href="#">Forside <span class="sr-only">(current)</span></a></li>-->
+                                <!--<li><a href="#">forside</a></li>-->
+                                <li><a href="#">Profil</a></li>
+                                <li><a href="#">Behandling</a></li>
+                                <li><a href="#">Sygesikring</a></li>
+                                <li><a href="#">Praktiske Oplysninger og Supervision </a></li>
+                                <li><a href="#">Undervisning</a></li>
+                                <li><a href="#">Kontakt</a></li>
+                               
+                            </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
+        
+            test
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

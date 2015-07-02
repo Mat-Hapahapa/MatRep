@@ -4064,7 +4064,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   max-width: none;
 }
 .nav-tabs {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 0px solid #ddd;
 }
 .nav-tabs > li {
   float: left;
@@ -5008,12 +5008,15 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background: #eee url('/Images/susanne_profil.jpg') no-repeat right;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
-    font-family: Serif;
+    font-family: serif;
+    /*font-family: Arial, Helvetica, sans-serif*/
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -5531,8 +5534,8 @@ button.list-group-item-danger.active:focus {
   padding: 10px 15px;
   background-color: #f5f5f5;
   border-top: 1px solid #ddd;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 .panel > .list-group,
 .panel > .panel-collapse > .list-group {

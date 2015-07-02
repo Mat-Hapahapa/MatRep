@@ -3,6 +3,37 @@
 }
 #sideWrapper {
     margin: 0 auto;
-    width: 50%;
-    background-color: #00bfff;
+    width: 90%;
+
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 20px; 
+
+    /*-webkit-box-shadow: 5px 5px 5px #828282;
+    -moz-box-shadow: 5px 5px 5px #828282;
+    box-shadow: 5px 5px 5px #828282;*/
+
+    -webkit-box-shadow: 5px 5px 5px #00ff7f;
+    -moz-box-shadow: 5px 5px 5px #828282;
+    box-shadow: 5px 5px 5px #828282;
+}
+.navbars {
+    margin: auto;
+    float: left;
+    width: 20%;
+    padding: 1%;
+    font-family: Serif;
+    font-weight: bolder; 
+}
+
+#contentFrontPage {
+
+    text-align: center;
+    padding: 5%;
+}
+
+.roundEdge {
+        border-radius: 10px;
+    background-color: gray;
+    padding: 40px; 
 }
